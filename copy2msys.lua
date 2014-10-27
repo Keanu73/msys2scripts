@@ -1,4 +1,4 @@
-- Copy To MSYS2
+-- Copy To MSYS2
 -- Version 0.0.4
 -- Coded by Keanu73
 -- Written on 26/10/14, 20:44
