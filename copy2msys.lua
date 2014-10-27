@@ -30,7 +30,7 @@ if answer == "" then
 	io.write("Please type in the name of the directory you want to copy to your MSYS environment: ")
 	local dir = io.read()
 	print("Copying...")
-	os.execute("copy "..dir.." "..msysdir.."\\home\\"..msysuser.."\\"..dir)
+	os.execute("copy "..dir.."\\* "..msysdir.."\\home\\"..msysuser.."\\"..dir)
 end
 if answer ~= "" then
 	print("Copying...")
