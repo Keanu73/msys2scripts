@@ -7,6 +7,7 @@
 -- 2. Run this script.
 -- 3. Your files will be copied to your msys environment.
 -- THIS IS for Windows, not Linux. Linux users you have an environment so get rid of this file, Linux users.
+-- This isn't for MSYS2, either.
 -- User Setting Levels:
 -- Level 0 - Not Important
 -- Level 1 - Important
