@@ -7,7 +7,6 @@
 -- 2. Run this script.
 -- 3. Your files will be copied to your msys environment.
 -- THIS IS for Windows, not Linux. Linux users you have an environment so get rid of this file, Linux users.
--- This isn't for MSYS2, either.
 -- User Setting Levels:
 -- Level 0 - Not Important
 -- Level 1 - Important
@@ -32,8 +31,10 @@ if answer == "" then
 	local dir = io.read()
 	print("Copying...")
 	os.execute("copy "..dir.."\\* "..msysdir.."\\home\\"..msysuser.."\\"..dir)
+	os.execute("C:\\msys64\\msys2_shell.bat")
 end
 if answer ~= "" then
 	print("Copying...")
 	os.execute("copy " ..answer.. " " ..msysdir.. "\\home\\" ..msysuser.. "\\" ..answer)
+	os.execute("C:\\msys64\\msys2_shell.bat")
 end
